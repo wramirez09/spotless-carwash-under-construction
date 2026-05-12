@@ -71,7 +71,7 @@ function App() {
                 <p className="mt-1 text-xl font-black text-white">Save up to 20% on ultimate washes</p>
               </div>
               <div className="flex flex-wrap items-center gap-3">
-                <a href="#tokens" className="inline-flex items-center gap-3 rounded-full bg-yellow-400 px-6 py-3.5 text-blue-950 font-extrabold shadow-lg shadow-yellow-400/20 transition hover:bg-yellow-300">
+                <a href="https://www.paypal.com/ncp/payment/VZ896M2HPTEPC" target="_blank" rel="noopener noreferrer" className="inline-flex items-center gap-3 rounded-full bg-yellow-400 px-6 py-3.5 text-blue-950 font-extrabold shadow-lg shadow-yellow-400/20 transition hover:bg-yellow-300">
                   <span>Buy tokens</span>
                   <svg className="w-4 h-4" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5"><path d="M13 5l7 7-7 7" /><path d="M5 12h14" /></svg>
                 </a>
