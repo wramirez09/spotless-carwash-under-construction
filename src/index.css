@@ -1,0 +1,32 @@
+body {
+  font-family: 'Archivo', system-ui, sans-serif;
+  -webkit-font-smoothing: antialiased
+}
+
+.display {
+  font-family: 'Archivo Black', 'Archivo', sans-serif;
+  font-style: italic;
+  letter-spacing: -0.02em;
+  line-height: 0.92
+}
+
+.mono {
+  font-family: 'JetBrains Mono', ui-monospace, monospace
+}
+
+.logo-mark {
+  background: #1B4FD9;
+  border: 3px solid #fff;
+  border-radius: 14px;
+  padding: 6px 14px 7px;
+  box-shadow: 0 0 0 3px #0A2A6B
+}
+
+.hazard {
+  background-image: repeating-linear-gradient(45deg, #FFD93D 0 28px, #08183F 28px 56px);
+  background-size: 56px 56px
+}
+
+.hazard-soft {
+  background-image: repeating-linear-gradient(45deg, rgba(255, 217, 61, .18) 0 28px, transparent 28px 56px)
+}
