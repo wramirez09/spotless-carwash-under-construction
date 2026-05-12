@@ -49,7 +49,7 @@ function App() {
             <div className="h-3 bg-white/10 rounded-full overflow-hidden border border-white/15">
               <div className="h-full bg-yellow-400 rounded-full hazard" style={{ width: '68%' }}></div>
             </div>
-            <div className="mt-3 mono text-[11px] text-blue-200 text-left sm:text-center">// est. relaunch — summer 2026</div>
+            <div className="mt-3 mono text-[11px] text-blue-200 text-left sm:text-center">est. relaunch — summer 2026</div>
           </div>
 
           {/* BUTTONS */}
@@ -85,7 +85,7 @@ function App() {
 
           {/* LOCATION INTRO */}
           <div className="max-w-[1100px] mx-auto text-left mt-14 px-5 md:px-7">
-            <div className="mono text-[11px] uppercase tracking-[0.3em] text-yellow-400 mb-3">// Find us</div>
+            <div className="mono text-[11px] uppercase tracking-[0.3em] text-yellow-400 mb-3">Find us</div>
             <h2 className="display text-4xl md:text-[56px]">Two locations. Ten bays. All in Forest Park.</h2>
             <p className="mt-4 text-blue-100 max-w-[760px] text-sm md:text-base">
               Both locations open 7am–10pm daily. Roosevelt Rd has heated indoor touchless automatic bays for winter; Madison St serves Forest Park, Oak Park, and Eisenhower commuters from the north.
