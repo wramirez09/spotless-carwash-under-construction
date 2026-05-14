@@ -5,17 +5,19 @@ function App() {
   return (
     <div className="min-h-screen flex flex-col text-white" style={{ background: 'linear-gradient(180deg,#1947c9 0%,#1B4FD9 55%,#2358ee 100%)' }}>
 
-      {/* NAV — branding only */}
-      <nav className="sticky top-0 z-50 bg-blue-500 text-white border-b-[3px] border-blue-700">
-        <div className="max-w-[1240px] mx-auto flex items-center justify-center px-5 md:px-7 py-3.5">
-          <img src="/assets/spotless-logo.png" alt="Spotless Carwash" className="h-14 md:h-16 w-auto" />
-        </div>
-      </nav>
+      <div className="sticky top-0 z-50">
+        {/* NAV — branding only */}
+        <nav className="bg-blue-500 text-white border-b-[3px] border-blue-700">
+          <div className="max-w-[1240px] mx-auto flex items-center justify-center px-5 md:px-7 py-3.5">
+            <img src="/assets/spotless-logo.png" alt="Spotless Carwash" className="h-14 md:h-16 w-auto" />
+          </div>
+        </nav>
 
-      {/* TOP RIBBON */}
-      <div className="bg-yellow-400 text-blue-700 py-3.5 border-y-[3px] border-blue-700">
-        <div className="max-w-[1240px] mx-auto px-5 md:px-7 text-center font-extrabold tracking-[0.16em] text-[13px] sm:text-sm">
-          SINCE 1994 · FOREST PARK'S CAR WASH FOR 30 YEARS
+        {/* TOP RIBBON */}
+        <div className="bg-yellow-400 text-blue-700 py-3.5 border-y-[3px] border-blue-700">
+          <div className="max-w-[1240px] mx-auto px-5 md:px-7 text-center font-extrabold tracking-[0.16em] text-[13px] sm:text-sm">
+            SINCE 1994 · FOREST PARK'S CAR WASH FOR 30 YEARS
+          </div>
         </div>
       </div>
 
