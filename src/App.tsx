@@ -9,7 +9,7 @@ function App() {
         {/* NAV — branding only */}
         <nav className="bg-blue-500 text-white border-b-[3px] border-blue-700">
           <div className="max-w-[1240px] mx-auto flex items-center justify-center px-5 md:px-7 py-3.5">
-            <img src="/assets/spotless-logo.png" alt="Spotless Carwash" className="h-14 md:h-16 w-auto" />
+            <span className="display italic uppercase text-white text-[22px] [text-shadow:-0.035em_0.05em_0_#0a2a6b]"><span className="text-[35px]">S</span>POTLESS<div className="pl-[.5em]">CARWASH</div></span>
           </div>
         </nav>
 
