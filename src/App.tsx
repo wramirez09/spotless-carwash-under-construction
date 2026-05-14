@@ -31,7 +31,7 @@ function App() {
             Pardon our dust
           </div>
 
-          <h1 className="display text-[64px] sm:text-[88px] md:text-[120px] lg:text-[140px]">
+          <h1 className="display text-[clamp(2.75rem,12vw,8.75rem)] leading-[0.95]">
             Site under
             <span className="block"><em className="text-yellow-400" style={{ fontStyle: 'italic' }}>construction</em>.</span>
           </h1>
